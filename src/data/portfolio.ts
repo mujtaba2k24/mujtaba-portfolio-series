@@ -18,11 +18,11 @@ export const profile = {
   seriesTag: 'THE SERIES',
   originalLabel: 'A MUJTABA ORIGINAL',
   role: 'Applied Linguistics Student',
-  tagline: [
-    'Applied Linguistics',
-    'Sociolinguistics',
-    'Multilingualism',
-  ],
+tagline: [
+  'Applied Linguistics',
+  'Sociolinguistics',
+  'Multilingualism',
+],
 intro:
   'I am Mujtaba Hussain Bhatti, an undergraduate student pursuing a bachelor\'s degree in English Applied Linguistics at the University of Sindh, Jamshoro. My keen interests include sociolinguistics, multilingualism, and language teaching, particularly understanding the relationship between language, society, and education. I have always been fascinated by how language connects with power, identity, gender norms, psychology, and other aspects of human life.',
   location: 'Hyderabad, Sindh, Pakistan',
