@@ -1,64 +1,73 @@
+
 /**
- * Central portfolio data — generated from Sushmita's resume (Sushmita_dasari.pdf).
- * Every fact on the site comes from this file. Update it here and the whole site follows.
- * Nothing here should be added unless it appears on the resume.
+ * Central portfolio data — Mujtaba Hussain Bhatti.
+ * Keep all personal claims accurate and update internship status as work progresses.
  */
 
-export type Palette = { from: string; via: string; to: string; accent: string };
+export type Palette = {
+  from: string;
+  via: string;
+  to: string;
+  accent: string;
+};
 
 export const profile = {
-  fullName: 'Dasari Venkata Ratna Sri Sushmita',
-  displayName: 'Sushmita Dasari',
-  firstName: 'SUSHMITA',
+  fullName: 'Mujtaba Hussain Bhatti',
+  displayName: 'Mujtaba Bhatti',
+  firstName: 'MUJTABA',
   seriesTag: 'THE SERIES',
-  /** Fictional studio card shown at the very start of the opening sequence. */
-  originalLabel: 'A DASARI ORIGINAL',
-  role: 'Full-Stack Developer',
-  tagline: ['Full-Stack Developer', 'AI / ML', 'Java'],
+  originalLabel: 'A MUJTABA ORIGINAL',
+  role: 'Applied Linguistics Student',
+  tagline: [
+    'Applied Linguistics',
+    'Sociolinguistics',
+    'Multilingualism',
+  ],
   intro:
-    'A B.Tech Artificial Intelligence & Machine Learning student (CGPA 9.10) and full-stack developer building AI-powered platforms, payment systems and multi-tenant SaaS with Java, Python, React, Node.js and Docker.',
-  location: 'Surampalem, Andhra Pradesh',
-  email: 'sushmitadasari17@gmail.com',
+    'A BS English Applied Linguistics student at the University of Sindh, Jamshoro, exploring the relationship between language, society, multilingualism, education, and institutional communication.',
+  location: 'Hyderabad, Sindh, Pakistan',
+  email: '',
   links: {
-    linkedin: 'https://www.linkedin.com/in/sushmita-dasari-227a40284/',
-    github: 'https://github.com/Sushmitadasari',
+    linkedin: '',
+    github: 'https://github.com/mujtaba2k24',
   },
-  resumePdf: '/assets/Sushmita_Dasari_Resume.pdf',
+  resumePdf: '/assets/Mujtaba_Hussain_Bhatti_CV.pdf',
   portrait: {
     src: '/assets/portrait-720.webp',
-    srcSet: '/assets/portrait-420.webp 420w, /assets/portrait-720.webp 720w, /assets/portrait-1100.webp 1100w',
-    alt: 'Portrait of Sushmita Dasari',
+    srcSet:
+      '/assets/portrait-420.webp 420w, /assets/portrait-720.webp 720w, /assets/portrait-1100.webp 1100w',
+    alt: 'Portrait of Mujtaba Hussain Bhatti',
   },
-  interests: ['System Design', 'Cloud Computing (AWS)', 'Machine Learning'],
+  interests: [
+    'Sociolinguistics',
+    'Multilingualism',
+    'Language Teaching',
+    'Language and Society',
+    'Applied Linguistics Research',
+  ],
 };
 
 export const education = [
   {
-    school: 'Aditya Engineering College',
-    place: 'Surampalem',
-    degree: 'Bachelor of Technology — Artificial Intelligence and Machine Learning',
-    period: 'October 2023 – Present',
-    score: 'CGPA 9.10',
-  },
-  {
-    school: 'Sri Chaitanya Junior College',
-    place: 'Kakinada',
-    degree: 'BIEAP — MPC',
-    period: 'June 2021 – May 2023',
-    score: 'Score 925/1000',
+    school: 'University of Sindh',
+    place: 'Jamshoro, Sindh, Pakistan',
+    degree: 'BS English Applied Linguistics — Institute of English Language & Literature (IELL)',
+    period: 'Current student',
+    score: 'CGPA 3.36 (reported through second-year marksheet)',
   },
 ];
 
 export const experience = [
   {
-    company: 'Technical Hub Pvt Ltd',
-    role: 'Trainee',
-    place: 'Surampalem, AP',
-    period: 'May 2025 – June 2026',
+    company: 'Revenue Administration, Hyderabad Rural',
+    role: 'Applied Linguistics Intern',
+    place: 'Hyderabad Rural, Sindh, Pakistan',
+    period: 'Dates to be confirmed',
     points: [
-      'Completed one year of intensive Full-Stack Development (FSD) training covering frontend, backend, database integration, and deployment workflows.',
-      'Developed responsive and functional web applications by implementing user interfaces, server-side logic, and database connectivity.',
-      'Deployed and managed web applications while applying version control, debugging, and end-to-end development practices.',
+      'Planned internship connecting Applied Linguistics with public administration and education.',
+      'Teaching component: classroom teaching, lesson planning, language-teaching methods, and classroom communication.',
+      'Non-teaching component: institutional communication, language use, language choice, and multilingual communication.',
+      'Planned duration: 60–80 hours. Activities and outcomes will be documented as they are completed and verified.',
     ],
   },
 ];
