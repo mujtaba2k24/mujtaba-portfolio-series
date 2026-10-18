@@ -1,4 +1,4 @@
-
+ 
 /**
  * Central portfolio data — Mujtaba Hussain Bhatti.
  * Keep all personal claims accurate and update internship status as work progresses.
@@ -38,13 +38,15 @@ intro:
       '/assets/portrait-420.webp 420w, /assets/portrait-720.webp 720w, /assets/portrait-1100.webp 1100w',
     alt: 'Portrait of Mujtaba Hussain Bhatti',
   },
-  interests: [
-    'Sociolinguistics',
-    'Multilingualism',
-    'Language Teaching',
-    'Language and Society',
-    'Applied Linguistics Research',
-  ],
+interests: [
+  'Sociolinguistics',
+  'Multilingualism',
+  'Language Teaching',
+  'Language and Society',
+  'Language, Power, and Identity',
+  'Language and Gender',
+  'Language and Psychology',
+],
 };
 
 export const education = [
